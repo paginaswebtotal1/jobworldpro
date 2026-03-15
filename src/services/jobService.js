@@ -3,7 +3,9 @@ import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);
 
-const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
+// ----const CORS_PROXY = 'https://api.allorigins.win/raw?url=';----
+const CORS_PROXY = 'https://corsproxy.io/?';
+
 
 // ---- Helpers ----
 const parseDate = (d) => {
